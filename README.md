@@ -20,10 +20,10 @@ Welcome to the Methodist Cathedral Of Unity Abuja website `white paper`. This do
 
 Our church website aims to provide a digital platform for our congregation and visitors to access information about our church, events, and resources. We strive to create an inclusive and informative online space that reflects our values and beliefs.
 
-The platform will have two categories of Registered Users namely:
+The platform will have two categories of Registered Users namely 
 - **Administrators**: 
   - Super Admin(Cathedral Presbyter)
-    - Admin(Pastors)
+  - Admin(Pastors)
 - **Members**
 
 Each registered user-role will have access limitations depending on the role of the user with overall access granted only to the  **Super Admin**
