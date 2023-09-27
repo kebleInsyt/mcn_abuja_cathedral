@@ -1,4 +1,4 @@
-# [Methodist Cathedral Of Unity Abuja] Website White-Paper
+# Methodist Cathedral Of Unity Abuja Website platform
 
 ## Table of Contents
 
@@ -12,7 +12,7 @@
 
 ## Introduction
 
-Welcome to the [Church Name] website white paper. This document provides an overview of our website, its purpose, and guidelines for contributors and users.
+Welcome to the Methodist Cathedral Of Unity Abuja website `white paper`. This document provides an overview of our website, its purpose, and guidelines for contributors and users.
 
 ## Project Overview
 
@@ -21,10 +21,10 @@ Welcome to the [Church Name] website white paper. This document provides an over
 Our church website aims to provide a digital platform for our congregation and visitors to access information about our church, events, and resources. We strive to create an inclusive and informative online space that reflects our values and beliefs.
 
 The platform will have two categories of Registered Users namely:
-    - Administrators:
+    - **Administrators**: 
         - Super Admin(Cathedral Presbyter)
         - Admin(Pastors)
-    - Members
+    - **Members**
 
 Each registered user-role will have access limitations depending on the role of the user with overall access granted only to the  **Super Admin**
 
@@ -32,13 +32,13 @@ check the (#Accessing the website) for description of user-roles
 
 ### Website URL
 
-- [Website URL](https://www.yourchurchwebsite.com)
+- [Website URL](https://www.mcn_cath_of_unity_abuja.com)
 
 ## Getting Started
 
 ### Accessing the Website
 
-To access the website, simply visit [our website URL](https://www.yourchurchwebsite.com) using your preferred web browser.
+To access the website, simply visit [our website URL](https://www.mcn_cath_of_unity_abuja.com) using your preferred web browser.
 
 1. **Super Admin**
    - The highest level of authority.
@@ -153,8 +153,8 @@ This project is licensed under the [MIT License](LICENSE.md).
 
 For questions, feedback, or assistance, please contact us at:
 
-- Email: [contact@yourchurchwebsite.com](mailto:contact@yourchurchwebsite.com)
+- Email: [contact@mcn_cath_of_unity_abuja.com](mailto:contact@mcn_cath_of_unity_abuja.com)
 - Phone: +234 703 055 27 35
-- Address: [MCN Cathedral of Unity Wuse Zone 3, FCT, Abuja]
+- Address: MCN Cathedral of Unity Wuse Zone 3, FCT, Abuja
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
