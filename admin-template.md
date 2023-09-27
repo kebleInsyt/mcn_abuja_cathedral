@@ -163,5 +163,3 @@ To create a church financial platform with exclusive access for super admins and
 
 - Schedule regular financial audits conducted exclusively by super admins and financial officers.
 - Maintain a transparent record of audit findings and actions taken.
-
-This tailored design plan creates a secure and exclusive financial platform for super admins and church financial officers, ensuring that they have the necessary tools and access to manage the church's finances effectively while maintaining strict security and compliance measures.
