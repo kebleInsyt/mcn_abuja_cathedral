@@ -22,7 +22,7 @@ const AboutSection = () => {
             The name of the Lord is a strong tower; the righteous run into it
             and are safe.
           </p>
-          <div class='grid grid-cols-2 gap-4 text-[#8d9297] mb-5'>
+          <div className='grid grid-cols-2 gap-4 text-[#8d9297] mb-5'>
             <div>
               <div className='mb-5 h-[45px] w-[45px] rounded-full bg-[#bf0f30] text-white flex justify-center items-center'>
                 <BsHeart />
