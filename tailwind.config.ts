@@ -12,6 +12,16 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'donate-pattern':
+          "linear-gradient(45deg, #000000c9, #000000c7), url('/app/images/slide-2.jpg')",
+      },
+      fontFamily: {
+        damion: ['var(--damion-font)', 'cursive'],
+        OpenSans: ['var(--open_sans-font)', 'sans-serif'],
+        poppins: ['var(--poppins-font)', 'sans-serif'],
+      },
+      animation: {
+        bounce: 'bounce 5s linear infinite',
       },
     },
   },

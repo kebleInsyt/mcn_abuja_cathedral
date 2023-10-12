@@ -1,8 +1,32 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Damion, Poppins, Open_Sans } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
+
+const damion = Damion({
+  weight: '400',
+  style: 'normal',
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--damion-font'
+});
+
+const poppins = Poppins({
+  weight: ['100','200', '300', '400', '500', '600', '700','800', '900'],
+  style: ['italic'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--poppins-font'
+});
+
+const open_sans = Open_Sans({
+  weight: 'variable',
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--open_sans-font'
+})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +40,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>{children}</body>
     </html>
   )
 }
