@@ -23,7 +23,6 @@ export default function Home() {
       <DonateBanner />
       <MinisteriesSection />
       <CallSection />
-      <FancyPattern />
       <BlogSection />
       <Footer />
     </div>
