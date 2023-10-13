@@ -52,7 +52,7 @@ const Slider = () => {
   };
 
   return (
-    <div className='h-screen relative'>
+    <div className='relative'>
       <AnimatePresence mode='wait'>
         {slides.map((slide, index) => (
           <motion.div
@@ -74,13 +74,13 @@ const Slider = () => {
             <div className='lg:w-2/3 w-11/12 mx-auto'>
               <div className='flex justify-between items-center gap-4'>
                 <div
-                  className='lg:h-[70px] h-[40px] lg:w-[70px] w-[40px] rounded-full bg-[rgba(0,0,0,0.61)] flex items-center justify-center'
+                  className='lg:h-[70px] h-[40px] lg:w-[70px] w-[40px] rounded-full bg-[rgba(0,0,0,0.61)] hidden md:flex items-center justify-center'
                   role='button'
                   onClick={nextSlide}
                 >
                   <FiChevronLeft className='text-3xl' />
                 </div>
-                <div className='slide-content text-center w-2/3'>
+                <div className='slide-content text-center lg:w-2/3 w-full'>
                   <div className='text-[21px]'>
                     <AnimatedText
                       key={key}
@@ -123,7 +123,7 @@ const Slider = () => {
                   </div>
                 </div>
                 <div
-                  className='lg:h-[70px] h-[40px] lg:w-[70px] w-[40px] rounded-full bg-[rgba(0,0,0,0.61)] flex items-center justify-center'
+                  className='hidden md:flex lg:h-[70px] h-[40px] lg:w-[70px] w-[40px] rounded-full bg-[rgba(0,0,0,0.61)] items-center justify-center'
                   role='button'
                   onClick={prevSlide}
                 >

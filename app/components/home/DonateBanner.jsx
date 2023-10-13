@@ -5,15 +5,17 @@ const DonateBanner = () => {
     <section className='bg-donate-pattern min-h-[70vh] flex items-center font-OpenSans py-10'>
       <div className='w-3/4 mx-auto text-center text-white'>
         <div className='flex justify-center mb-10'>
-          <div className='mb-5 h-[45px] w-[45px] rounded-full bg-[#bf0f30] text-white flex justify-center items-center'>
-            <BsHeart />
+          <div className='h-[80px] w-[80px] rounded-full bg-red-300 flex justify-center items-center'>
+            <div className='h-[45px] w-[45px] rounded-full bg-[#bf0f30] text-white flex justify-center items-center'>
+              <BsHeart />
+            </div>
           </div>
         </div>
-        <p className='text-[42px] font-poppins font-bold'>
+        <p className='lg:text-[42px] text-[30px] font-poppins font-bold'>
           “Pray! And listen to God! You can do this alone, but find somebody to
           do it with you”
         </p>
-        <p className=' font-damion text-[25px] mt-5 mb-10'>
+        <p className='font-damion text-[25px] mt-5 mb-10'>
           Real Story Cross Journey from Anna Hampton
         </p>
         <div className='flex justify-center'>

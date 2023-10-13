@@ -4,11 +4,11 @@ import { BsHeart } from 'react-icons/bs';
 const AboutSection = () => {
   return (
     <div className='w-11/12 mx-auto my-20'>
-      <div class='grid grid-cols-2 gap-10'>
+      <div className='grid lg:grid-cols-2 grid-cols-1 gap-10'>
         <div>
           <img src={church.src} alt='' />
         </div>
-        <div className=' font-OpenSans text-[#8d9297]'>
+        <div className='font-OpenSans text-[#8d9297]'>
           <p className='text-[#bf0f30] text-[15px] font-bold'>ABOUT US</p>
           <p className='text-[30px] font-bold text-[#252525] mb-5'>
             We are Taking Small Steps to Make Earth Better Planet
@@ -22,7 +22,7 @@ const AboutSection = () => {
             The name of the Lord is a strong tower; the righteous run into it
             and are safe.
           </p>
-          <div className='grid grid-cols-2 gap-4 text-[#8d9297] mb-5'>
+          <div className='grid lg:grid-cols-2 grid-cols-1 gap-4 text-[#8d9297] mb-5'>
             <div>
               <div className='mb-5 h-[45px] w-[45px] rounded-full bg-[#bf0f30] text-white flex justify-center items-center'>
                 <BsHeart />
