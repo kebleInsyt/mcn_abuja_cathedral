@@ -1,5 +1,6 @@
 // components/Slider.js
 import React, { useState, useEffect } from 'react';
+import Header from '../components/partials/Header';
 import { motion, AnimatePresence } from 'framer-motion';
 import AnimatedText from './AnimatedText';
 import slide1 from '../images/slide-1.jpg';
@@ -134,6 +135,7 @@ const Slider = () => {
           </motion.div>
         ))}
       </AnimatePresence>
+      <Header />
     </div>
   );
 };
