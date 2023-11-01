@@ -13,7 +13,7 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'donate-pattern':
-          "linear-gradient(45deg, #000000c9, #000000c7), url('/app/images/slide-2.jpg')",
+          "linear-gradient(45deg, rgba(0,22,47,0.92), rgba(0,22,47,0.92)), url('/images/slide-2.jpg')",
       },
       fontFamily: {
         damion: ['Damion', 'cursive'],
